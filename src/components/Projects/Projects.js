@@ -6,7 +6,7 @@ import projectsjson from './projects.json'
 const Projects = () =>(
     <div>
         <div className="page" id="p2">
-            <div className="icon fa fa-keyboard-o"><span className="title"></span>
+            <div className="icon"><span className="title"></span>
                 <div className="hint">
                     <MenuList mlist={projectsjson}></MenuList>
                 </div>
